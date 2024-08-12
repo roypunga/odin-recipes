@@ -1,8 +1,61 @@
 * {
     font-family:'Courier New', Courier, monospace;
-    background: rgb(54, 54, 54);
-    color: rgb(184, 184, 0);
-    text-align: center;
+    background: rgb(24, 24, 24);
+    color: white;
+    text-align: left;
+}
+
+.tit_arriba {
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+.tit_abajo {
+    font-size: 22px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(12, 109, 255);
+}
+
+.tit_abajo, .tit_arriba {
+    text-align: left;
+}
+
+#foto {
+    max-width: 100%;
+    height: auto;
+}
+.titulo {
+    margin-bottom: 22px;
+}
+
+#cajas {
+    margin-top: -100px;
+    display: flex;
+}
+
+.tit_caja {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+#caja2, #caja1, #caja3 {
+    display: inline-block;
+    padding: 12px;
+    height: auto;
+    width: 250px;
+    margin: auto;
+}
+ 
+#caja1 div, #caja1, #caja3, #caja3 div{
+    background-color: rgb(12, 109, 255);
+    color: rgb(255, 255, 255);
+}
+
+#caja2 div, #caja2 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(12, 109, 255);
 }
 
 h5 {
