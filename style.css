@@ -2,4 +2,13 @@
     font-family:'Courier New', Courier, monospace;
     background: rgb(54, 54, 54);
     color: rgb(184, 184, 0);
+    text-align: center;
+}
+
+h5 {
+    color: brown;
+    a:link, a:visited{
+        color: orangered;
+
+    }
 }
