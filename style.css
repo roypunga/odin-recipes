@@ -32,6 +32,8 @@
 #cajas {
     margin-top: -100px;
     display: flex;
+    width: 100%;
+    height: auto;
 }
 
 .tit_caja {
@@ -40,12 +42,13 @@
     font-weight: bold;
     margin-bottom: 8px;
 }
+
 #caja2, #caja1, #caja3 {
-    display: inline-block;
-    padding: 12px;
-    height: auto;
+    text-align: center;
+    flex-grow: 1;
+    padding: 12px; 
+    min-height: 250px;
     width: 250px;
-    margin: auto;
 }
  
 #caja1 div, #caja1, #caja3, #caja3 div{
@@ -56,6 +59,35 @@
 #caja2 div, #caja2 {
     background-color: rgb(255, 255, 255);
     color: rgb(12, 109, 255);
+}
+
+.lista_index {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.itemsx, .itemsy {
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px
+}
+
+.itemsx {
+    background-color: rgb(12, 109, 255);
+    a:link, a:visited{
+
+        background-color: rgb(12, 109, 255);
+    }
+}
+
+.itemsy {
+    background-color: rgb(255, 255, 255);
+    a:link, a:visited{
+
+        background-color: rgb(255, 255, 255);
+        color: rgb(12, 109, 255);
+    }
 }
 
 h5 {
